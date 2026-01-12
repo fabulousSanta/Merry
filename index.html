@@ -64,7 +64,7 @@
   <script>
     // ⏰ SET YOUR TIMES HERE
     const startTime = new Date("2026-01-12T16:50:00").getTime(); 
-    const endTime   = new Date("2026-01-12T17:05:00").getTime();
+    const endTime   = new Date("2026-01-12T17:15:00").getTime();
 
     // 1. START COUNTDOWN AUTOMATICALLY ON PAGE LOAD
     const timerInterval = setInterval(updateTimer, 1000);
@@ -101,7 +101,7 @@
       } else if (now < startTime) {
         alert("სიურპრიზი მზად არ არის! თვალი ადევნე წამზომს.");
       } else {
-        alert("Sorry, you missed the window!");
+        alert("შენ გამოტოვე მილოცვა!");
       }
     }
 
